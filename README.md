@@ -7,7 +7,7 @@
 https://github.com/dohbams/IBM-Data-Science-with-R-Capstone/assets/78285629/f573b42c-921a-4f8f-abdb-a2b31f3bf86c
 
 ## After
-https://github.com/dohbams/IBM-Data-Science-with-R-Capstone/assets/78285629/a4c11da2-b56d-4305-960e-53ec40fadf57
+
 
 ## A Walk Through My First Data Science Project
 
