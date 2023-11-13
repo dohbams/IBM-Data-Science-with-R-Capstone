@@ -45,7 +45,9 @@ Fast forward a year, and I revisited this project. Armed with more knowledge, th
 
 To fellow data enthusiasts embarking on their journey, here's a nugget of wisdom: Your first project may not be flawless, and that's absolutely fine. My initial attempt, while not a masterpiece, served as a stepping stone. Embrace the learning curve, persist in your efforts, and let your projects evolve over time.
 
-## Take a Peek Behind the Code
+## Take a Peek Behind the Code and Explore the New App!!
 
 Feel free to explore the code, datasets, and documentation. May this account of my early data endeavors inspire and provide insights for your own learning adventure.
+
+app : https://dohbams.shinyapps.io/Bike-Demand-Prediction-App/
 
