@@ -13,7 +13,7 @@ https://github.com/dohbams/IBM-Data-Science-with-R-Capstone/assets/78285629/1dec
 
 ## A Walk Through My First Data Science Project
 
-Greetings! Let's rewind the clock about a year ago and revisit a milestone in my data science journey - the Bike Sharing Demand Predictor project. This was part of the IBM Data Science with R certification, the capstone project and it represents my early steps into the world of data science.
+Greetings! Let's rewind the clock about a year ago and revisit a milestone in my data science journey - the Bike Sharing Demand Predictor project. This was part of the IBM Data Science with R certification; the capstone project, and it represents my early steps into the world of data science.
 
 ## Back to the Beginning
 
