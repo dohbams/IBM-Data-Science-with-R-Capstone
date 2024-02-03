@@ -7,27 +7,24 @@
 #    http://shiny.rstudio.com/
 #
 
-library(shiny)
+# Load required libraries
+require(leaflet)
+require(shiny)
 
-# Define UI for application that draws a histogram
-shinyUI(fluidPage(
-
-    # Application title
-    titlePanel("Old Faithful Geyser Data"),
-
-    # Sidebar with a slider input for number of bins
-    sidebarLayout(
-        sidebarPanel(
-            sliderInput("bins",
-                        "Number of bins:",
-                        min = 1,
-                        max = 50,
-                        value = 30)
-        ),
-
-        # Show a plot of the generated distribution
-        mainPanel(
-            plotOutput("distPlot")
-        )
-    )
+# Create a RShiny UI
+shinyUI(
+  fluidPage(padding=5,
+  titlePanel("Bike-sharing demand prediction app"), 
+  # Create a side-bar layout
+  sidebarLayout(
+    # Create a main panel to show cities on a leaflet map
+    mainPanel(
+      # leaflet output with id = 'city_bike_map', height = 1000
+      leafletOutput("city_bike_map", height = 1000)
+    ),
+    # Create a side bar to show detailed plots for a city
+    sidebarPanel( 
+      # select drop down list to select city
+      selectInput(inputId = "city_dropdown", label = "Cities", choices = c("All", "Seoul", "Suzhou", "London", "New York", "Paris"))
+    ))
 ))
